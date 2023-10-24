@@ -6,12 +6,12 @@ module.exports = {
     host: "127.0.0.1",
     dialect: "postgres",
     migrationStorage: "json",
-    define: {
-      freezeTableName: true,
-      timestamps: false,
-      underscored: true
-    }
-
+    seederStorage: 'json',
+    // define: {
+    //   freezeTableName: true,
+    //   timestamps: false,
+    //   underscored: true
+    // }
   },
   "test": {
     // "username": "root",

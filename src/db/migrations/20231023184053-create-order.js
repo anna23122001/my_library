@@ -15,6 +15,13 @@ module.exports = {
       start: {
         type: Sequelize.INTEGER
       },
+      customer_id: {
+          type: Sequelize.INTEGER,
+          references: {
+            model: 'Customers',
+            key: 'id'
+          }
+      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE
