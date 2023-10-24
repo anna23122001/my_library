@@ -15,6 +15,13 @@ module.exports = {
       email: {
         type: Sequelize.TEXT
       },
+      national_id: {
+        type: Sequelize.INTEGER,
+        references: {
+          model: 'Nationalities',
+          key: 'id'
+        }
+      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE
