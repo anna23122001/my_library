@@ -10,6 +10,8 @@ const db = require('./db/models');
     db.Author.sync({alter: true});
     db.Nationality.sync({alter: true});
     db.Book.sync({alter: true});
+    db.authors_books.sync({alter: true});
+    db.orders_books.sync({alter: true});
 })();
 
 

@@ -5,5 +5,7 @@
   "20231023184206-create-author.js",
   "20231023184319-create-book.js",
   "20231023183741-create-customer.js",
-  "20231023184053-create-order.js"
+  "20231023184053-create-order.js",
+  "20231024191232-create-authors-books.js",
+  "20231024192111-create-orders-books.js"
 ]
